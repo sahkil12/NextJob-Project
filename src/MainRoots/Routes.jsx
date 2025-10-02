@@ -6,11 +6,13 @@ import Blogs from "../Pages/Blogs";
 import Contact from "../Pages/Contact";
 import Jobs from "../Pages/Jobs";
 import Companies from "../Pages/Companies";
+import ErrorPage from "../Errorpages/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         index:true,

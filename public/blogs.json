@@ -1,0 +1,152 @@
+[
+  {
+    "id": "blog-001",
+    "title": "How I Landed My First Tech Job",
+    "author": "Rana Hasan",
+    "company": "TechSoft Solutions",
+    "bannerImage": "https://picsum.photos/800/400?random=1",
+    "date": "2025-09-10",
+    "summary": "I started from scratch with no coding experience and managed to land a frontend developer role.",
+    "content": "Learning HTML, CSS, and JavaScript was my first step. I practiced with small projects and built a portfolio. Applying to jobs and preparing for interviews helped me finally secure my position at TechSoft Solutions."
+  },
+  {
+    "id": "blog-002",
+    "title": "From Intern to Full-time Backend Developer",
+    "author": "Sadia Khan",
+    "company": "Innovatech Labs",
+    "bannerImage": "https://picsum.photos/800/400?random=2",
+    "date": "2025-08-25",
+    "summary": "An inspiring journey from internship to full-time employment.",
+    "content": "Starting as an intern taught me real-world coding and teamwork. I focused on Node.js and database management, which helped me stand out. After 6 months, I received a full-time offer."
+  },
+  {
+    "id": "blog-003",
+    "title": "Remote Job Success in FinTech",
+    "author": "Arif Hossain",
+    "company": "FinTech Solutions",
+    "bannerImage": "https://picsum.photos/800/400?random=3",
+    "date": "2025-07-15",
+    "summary": "Tips for landing a remote position in a competitive fintech market.",
+    "content": "Building a strong online portfolio and contributing to open-source projects increased my visibility. Networking on LinkedIn helped me connect with recruiters. Eventually, I secured a full-stack remote role."
+  },
+  {
+    "id": "blog-004",
+    "title": "Journey into UI/UX Design",
+    "author": "Nusrat Jahan",
+    "company": "Creative Minds Agency",
+    "bannerImage": "https://picsum.photos/800/400?random=4",
+    "date": "2025-06-20",
+    "summary": "How I transitioned from graphic design to UI/UX.",
+    "content": "My design background helped me understand user needs. I studied UI/UX principles, prototyping tools, and user research, which led me to a UX designer role at Creative Minds."
+  },
+  {
+    "id": "blog-005",
+    "title": "Climbing the Ladder in Renewable Energy",
+    "author": "Jahidul Islam",
+    "company": "GreenTech Energy",
+    "bannerImage": "https://picsum.photos/800/400?random=5",
+    "date": "2025-06-01",
+    "summary": "A story of growth in the renewable energy industry.",
+    "content": "Starting as a field engineer, I focused on solar projects. Continuous learning and leadership led me to become a project manager at GreenTech Energy."
+  },
+  {
+    "id": "blog-006",
+    "title": "My First Job Abroad",
+    "author": "Moumita Rahman",
+    "company": "GlobalTech Corp",
+    "bannerImage": "https://picsum.photos/800/400?random=6",
+    "date": "2025-05-18",
+    "summary": "Breaking barriers and finding opportunities overseas.",
+    "content": "After applying to multiple global companies, I finally secured a junior developer job in Singapore. The journey was tough, but it opened many doors."
+  },
+  {
+    "id": "blog-007",
+    "title": "Breaking into Data Science",
+    "author": "Tanmoy Roy",
+    "company": "DataVision Analytics",
+    "bannerImage": "https://picsum.photos/800/400?random=7",
+    "date": "2025-05-01",
+    "summary": "How I became a data analyst without a CS degree.",
+    "content": "I learned Python, statistics, and visualization tools. By showcasing real projects on GitHub, I landed my first data analyst role at DataVision."
+  },
+  {
+    "id": "blog-008",
+    "title": "Overcoming Rejections",
+    "author": "Farhana Alam",
+    "company": "NextGen IT",
+    "bannerImage": "https://picsum.photos/800/400?random=8",
+    "date": "2025-04-10",
+    "summary": "How multiple job rejections finally led to success.",
+    "content": "I faced over 15 rejections before finally getting selected as a software engineer. Each rejection taught me how to improve my CV, skills, and interviews."
+  },
+  {
+    "id": "blog-009",
+    "title": "Switching Careers into Tech",
+    "author": "Kamal Uddin",
+    "company": "SoftBridge",
+    "bannerImage": "https://picsum.photos/800/400?random=9",
+    "date": "2025-03-15",
+    "summary": "A shift from accounting to programming.",
+    "content": "I worked in finance but always had a passion for coding. I learned web development through online courses and landed a junior dev job at SoftBridge."
+  },
+  {
+    "id": "blog-010",
+    "title": "Winning a Hackathon Changed My Life",
+    "author": "Shamim Reza",
+    "company": "CodeCrafters",
+    "bannerImage": "https://picsum.photos/800/400?random=10",
+    "date": "2025-02-28",
+    "summary": "How hackathon success opened opportunities.",
+    "content": "Participating in hackathons boosted my confidence and networking. Winning one gave me recognition, leading to my current developer job."
+  },
+  {
+    "id": "blog-011",
+    "title": "Starting My Career in Cybersecurity",
+    "author": "Rizwan Karim",
+    "company": "SecureTech",
+    "bannerImage": "https://picsum.photos/800/400?random=11",
+    "date": "2025-02-05",
+    "summary": "Journey into the world of ethical hacking.",
+    "content": "I completed certifications like CEH and started with bug bounty programs. Later, I joined SecureTech as a junior cybersecurity analyst."
+  },
+  {
+    "id": "blog-012",
+    "title": "First Internship Experience",
+    "author": "Anika Chowdhury",
+    "company": "SmartWeb",
+    "bannerImage": "https://picsum.photos/800/400?random=12",
+    "date": "2025-01-20",
+    "summary": "How my first internship taught me teamwork and coding.",
+    "content": "Internship was the best way to learn professional coding. Working on real projects and with mentors helped me improve."
+  },
+  {
+    "id": "blog-013",
+    "title": "Finding Balance While Job Hunting",
+    "author": "Shuvo Das",
+    "company": "JobTrack",
+    "bannerImage": "https://picsum.photos/800/400?random=13",
+    "date": "2025-01-02",
+    "summary": "Managing stress and keeping consistent while applying.",
+    "content": "Job hunting is stressful. I managed by setting daily goals, networking, and staying motivated until I got my job."
+  },
+  {
+    "id": "blog-014",
+    "title": "Getting My First Remote Internship",
+    "author": "Priya Sultana",
+    "company": "CloudWorks",
+    "bannerImage": "https://picsum.photos/800/400?random=14",
+    "date": "2024-12-15",
+    "summary": "A remote internship gave me valuable exposure.",
+    "content": "Though I never visited the office, working remotely taught me responsibility and communication. This internship paved my way into a full-time role."
+  },
+  {
+    "id": "blog-015",
+    "title": "The Power of Networking",
+    "author": "Nayeem Rahman",
+    "company": "Netlinkers",
+    "bannerImage": "https://picsum.photos/800/400?random=15",
+    "date": "2024-11-28",
+    "summary": "How networking led me to my dream job.",
+    "content": "By attending local tech meetups and connecting on LinkedIn, I found opportunities I never expected. Networking played a huge role in my career growth."
+  }
+]

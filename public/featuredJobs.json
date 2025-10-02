@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fjob-001",
+    "title": "Senior Frontend Developer",
+    "company": "TechHive",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$1200 - $1500 / month",
+    "jobType": "Full-time",
+    "bannerImage": "https://www.orientsoftware.com/Themes/Content/Images/blog/2024-08-12/senior-front-end-dev-vs-mid-level.webp",
+    "highlight": "Urgent Hiring"
+  },
+  {
+    "id": "fjob-002",
+    "title": "Digital Marketing Specialist",
+    "company": "BrightAds",
+    "location": "Chattogram, Bangladesh",
+    "salary": "$700 - $1000 / month",
+    "jobType": "Full-time",
+    "bannerImage": "https://www.michaelpage.ae/sites/michaelpage.ae/files/legacy/7_digital_skills600x387.png",
+    "highlight": "Featured"
+  },
+  {
+    "id": "fjob-003",
+    "title": "Cybersecurity Analyst",
+    "company": "SafeNet Security",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$900 - $1200 / month",
+    "jobType": "Full-time",
+    "bannerImage": "https://arksolvers.com/wp-content/uploads/2024/09/What-Cybersecurity-Analysts-Do-1024x585.jpeg",
+    "highlight": "Hot Job"
+  },
+  {
+    "id": "fjob-004",
+    "title": "Data Scientist",
+    "company": "Insight Labs",
+    "location": "Remote",
+    "salary": "$1500 - $2000 / month",
+    "jobType": "Remote",
+    "bannerImage": "https://static.vecteezy.com/system/resources/previews/005/442/693/non_2x/data-science-analytics-internet-and-technology-concept-concept-photo.jpg",
+    "highlight": "Trending"
+  },
+  {
+    "id": "fjob-005",
+    "title": "UI/UX Designer",
+    "company": "CreativeX",
+    "location": "Sylhet, Bangladesh",
+    "salary": "$800 - $1100 / month",
+    "jobType": "Full-time",
+    "bannerImage": "https://images.unsplash.com/photo-1559028012-481c04fa702d",
+    "highlight": "Featured"
+  },
+  {
+    "id": "fjob-006",
+    "title": "Backend Developer (Node.js)",
+    "company": "CodeBase Ltd",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$1000 - $1300 / month",
+    "jobType": "Full-time",
+    "bannerImage": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "highlight": "Urgent"
+  }
+]

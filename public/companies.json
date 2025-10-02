@@ -1,0 +1,523 @@
+[
+  {
+    "id": "1",
+    "name": "TechSoft Solutions",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2942/2942777.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.techsoftsolutions.com",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Frontend Developer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2017/05/31/11/17/office-2360063_1280.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$500 - $700 / month",
+        "jobType": "Full-time",
+        "description": "Join our frontend team to build responsive web applications.",
+        "requirements": [
+          "Proficient in HTML, CSS, JavaScript",
+          "Experience with React.js",
+          "Familiarity with REST APIs",
+          "Good understanding of responsive design",
+          "Excellent problem-solving skills"
+        ]
+      },
+      {
+        "id": "job-002",
+        "title": "UI/UX Designer",
+        "bannerImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fit=crop&w=800&q=80",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$450 - $650 / month",
+        "jobType": "Full-time",
+        "description": "Design intuitive interfaces for web applications.",
+        "requirements": [
+          "Proficient in Figma or Adobe XD",
+          "Experience with wireframing and prototyping",
+          "Understanding of responsive design",
+          "Strong visual and communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Innovatech Labs",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "location": "Chittagong, Bangladesh",
+    "website": "https://www.innovatechlabs.com",
+    "industry": "Information Technology",
+    "jobs": [
+      {
+        "id": "job-003",
+        "title": "Backend Developer",
+        "bannerImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fit=crop&w=800&q=80",
+        "location": "Chittagong, Bangladesh",
+        "salary": "$600 - $800 / month",
+        "jobType": "Full-time",
+        "description": "Work on scalable backend APIs and services.",
+        "requirements": [
+          "Strong knowledge of Node.js or Python",
+          "Experience with databases (SQL/NoSQL)",
+          "Familiarity with RESTful APIs",
+          "Cloud platform experience (AWS/GCP)",
+          "Good debugging skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "FinTech Solutions",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3209/3209851.png",
+    "location": "Remote",
+    "website": "https://www.fintechsolutions.com",
+    "industry": "Financial Technology",
+    "jobs": [
+      {
+        "id": "job-004",
+        "title": "Full Stack Developer",
+        "bannerImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=800&q=80",
+        "location": "Remote",
+        "salary": "$800 - $1000 / month",
+        "jobType": "Remote / Full-time",
+        "description": "Work on both frontend and backend of our fintech platform.",
+        "requirements": [
+          "Proficient in React and Node.js",
+          "Experience with SQL/NoSQL databases",
+          "Knowledge of cloud infrastructure",
+          "Ability to write clean, maintainable code",
+          "Good team collaboration skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Creative Minds Agency",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135719.png",
+    "location": "Sylhet, Bangladesh",
+    "website": "https://www.creativeminds.com",
+    "industry": "Digital Marketing",
+    "jobs": [
+      {
+        "id": "job-005",
+        "title": "Digital Marketing Specialist",
+        "bannerImage": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg",
+        "location": "Sylhet, Bangladesh",
+        "salary": "$400 - $600 / month",
+        "jobType": "Full-time",
+        "description": "Develop and implement marketing strategies.",
+        "requirements": [
+          "Experience with SEO and SEM",
+          "Knowledge of social media campaigns",
+          "Good analytics and reporting skills",
+          "Creative thinking and problem-solving"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "GreenTech Energy",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2920/2920338.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.greentechenergy.com",
+    "industry": "Renewable Energy",
+    "jobs": [
+      {
+        "id": "job-006",
+        "title": "Project Manager",
+        "bannerImage": "https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091_960_720.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$700 - $900 / month",
+        "jobType": "Full-time",
+        "description": "Manage renewable energy projects from planning to execution.",
+        "requirements": [
+          "Proven experience as a project manager",
+          "Knowledge of energy industry trends",
+          "Excellent organizational and leadership skills",
+          "Ability to manage budgets and timelines",
+          "Strong communication and reporting skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "NextGen AI",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135725.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.nextgenai.com",
+    "industry": "Artificial Intelligence",
+    "jobs": [
+      {
+        "id": "job-007",
+        "title": "Machine Learning Engineer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2015/01/08/18/30/man-593372_1280.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$900 - $1200 / month",
+        "jobType": "Full-time",
+        "description": "Develop and optimize machine learning models for AI applications.",
+        "requirements": [
+          "Experience with Python and ML frameworks",
+          "Knowledge of TensorFlow or PyTorch",
+          "Understanding of data preprocessing and feature engineering",
+          "Strong problem-solving skills",
+          "Ability to work in a collaborative team"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "HealthTech Innovations",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2921/2921822.png",
+    "location": "Chittagong, Bangladesh",
+    "website": "https://www.healthtechinnovations.com",
+    "industry": "Healthcare Technology",
+    "jobs": [
+      {
+        "id": "job-008",
+        "title": "Healthcare Data Analyst",
+        "bannerImage": "https://cdn.pixabay.com/photo/2016/11/19/13/08/business-1839191_1280.jpg",
+        "location": "Chittagong, Bangladesh",
+        "salary": "$600 - $800 / month",
+        "jobType": "Full-time",
+        "description": "Analyze healthcare data to improve patient outcomes.",
+        "requirements": [
+          "Experience with data analytics tools",
+          "Knowledge of SQL and Python",
+          "Understanding of healthcare data standards",
+          "Strong problem-solving skills",
+          "Good communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "EduNext Academy",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135730.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.edunextacademy.com",
+    "industry": "E-Learning",
+    "jobs": [
+      {
+        "id": "job-009",
+        "title": "React Instructor",
+        "bannerImage": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$400 - $600 / month",
+        "jobType": "Part-time",
+        "description": "Teach React.js to students in a structured curriculum.",
+        "requirements": [
+          "Strong knowledge of React.js",
+          "Experience with teaching or mentoring",
+          "Good communication skills",
+          "Ability to create lesson plans"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "TravelEase Ltd.",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135740.png",
+    "location": "Sylhet, Bangladesh",
+    "website": "https://www.travelease.com",
+    "industry": "Travel & Tourism",
+    "jobs": [
+      {
+        "id": "job-010",
+        "title": "Travel Coordinator",
+        "bannerImage": "https://cdn.pixabay.com/photo/2023/03/11/11/34/travelling-7844283_960_720.jpg",
+        "location": "Sylhet, Bangladesh",
+        "salary": "$350 - $500 / month",
+        "jobType": "Full-time",
+        "description": "Coordinate travel plans and packages for clients.",
+        "requirements": [
+          "Experience in travel industry",
+          "Good organizational skills",
+          "Communication skills",
+          "Problem-solving ability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "GreenLeaf Organics",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2920/2920337.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.greenleaforganics.com",
+    "industry": "Organic Products",
+    "jobs": [
+      {
+        "id": "job-011",
+        "title": "E-Commerce Manager",
+        "bannerImage": "https://cdn.pixabay.com/photo/2016/12/20/22/32/holiday-shopping-1921658_960_720.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$500 - $700 / month",
+        "jobType": "Full-time",
+        "description": "Manage online sales and e-commerce operations.",
+        "requirements": [
+          "Experience in e-commerce management",
+          "Knowledge of online marketing",
+          "Good organizational skills",
+          "Strong communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Skyline Media",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135750.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.skylinemedia.com",
+    "industry": "Media & Communications",
+    "jobs": [
+      {
+        "id": "job-012",
+        "title": "Content Writer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2014/03/22/22/15/social-media-292988_960_720.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$350 - $500 / month",
+        "jobType": "Full-time",
+        "description": "Create engaging content for media campaigns.",
+        "requirements": [
+          "Excellent writing skills",
+          "Experience in digital content creation",
+          "Understanding of SEO",
+          "Good research skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "CyberSec Solutions",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135760.png",
+    "location": "Chittagong, Bangladesh",
+    "website": "https://www.cybersecsolutions.com",
+    "industry": "Cybersecurity",
+    "jobs": [
+      {
+        "id": "job-013",
+        "title": "Cybersecurity Analyst",
+        "bannerImage": "https://cdn.pixabay.com/photo/2024/10/24/11/39/data-security-9145391_960_720.jpg",
+        "location": "Chittagong, Bangladesh",
+        "salary": "$700 - $900 / month",
+        "jobType": "Full-time",
+        "description": "Monitor and protect company systems from cyber threats.",
+        "requirements": [
+          "Experience with security tools",
+          "Knowledge of network security",
+          "Ability to analyze threats",
+          "Good problem-solving skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "BlueWave Technologies",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135765.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.bluewavetech.com",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-014",
+        "title": "Mobile App Developer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2023/08/10/05/57/android-app-development-8180855_960_720.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$600 - $800 / month",
+        "jobType": "Full-time",
+        "description": "Develop mobile applications for Android and iOS.",
+        "requirements": [
+          "Experience in Flutter or React Native",
+          "Knowledge of mobile UI/UX design",
+          "Good debugging skills",
+          "Team collaboration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "EcoBuild Constructions",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2920/2920339.png",
+    "location": "Sylhet, Bangladesh",
+    "website": "https://www.ecobuild.com",
+    "industry": "Construction",
+    "jobs": [
+      {
+        "id": "job-015",
+        "title": "Civil Engineer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2020/03/12/13/41/engineer-4925131_960_720.jpg",
+        "location": "Sylhet, Bangladesh",
+        "salary": "$700 - $900 / month",
+        "jobType": "Full-time",
+        "description": "Plan and oversee construction projects.",
+        "requirements": [
+          "Degree in Civil Engineering",
+          "Experience in project management",
+          "Knowledge of construction standards",
+          "Strong organizational skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "BrightFuture Education",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135775.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.brightfutureedu.com",
+    "industry": "Education",
+    "jobs": [
+      {
+        "id": "job-016",
+        "title": "Math Instructor",
+        "bannerImage": "https://cdn.pixabay.com/photo/2017/06/19/03/18/iphone-2418042_960_720.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$400 - $600 / month",
+        "jobType": "Part-time",
+        "description": "Teach math courses to students of various levels.",
+        "requirements": [
+          "Strong knowledge of mathematics",
+          "Teaching experience",
+          "Good communication skills",
+          "Ability to explain complex concepts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "NextGen Robotics",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135780.png",
+    "location": "Chittagong, Bangladesh",
+    "website": "https://www.nextgenrobotics.com",
+    "industry": "Robotics",
+    "jobs": [
+      {
+        "id": "job-017",
+        "title": "Robotics Engineer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2020/03/09/13/53/engineer-4915794_1280.jpg",
+        "location": "Chittagong, Bangladesh",
+        "salary": "$900 - $1200 / month",
+        "jobType": "Full-time",
+        "description": "Design and develop robotics systems.",
+        "requirements": [
+          "Experience with robotics frameworks",
+          "Knowledge of sensors and actuators",
+          "Programming skills in Python/C++",
+          "Problem-solving skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "UrbanDesign Studio",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135790.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.urbandesignstudio.com",
+    "industry": "Architecture & Design",
+    "jobs": [
+      {
+        "id": "job-018",
+        "title": "Architect",
+        "bannerImage": "https://cdn.pixabay.com/photo/2016/11/24/20/30/floor-plan-1857175_960_720.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$800 - $1000 / month",
+        "jobType": "Full-time",
+        "description": "Design residential and commercial buildings.",
+        "requirements": [
+          "Degree in Architecture",
+          "Experience in building design",
+          "Knowledge of CAD software",
+          "Good project management skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "SafeNet Security",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135795.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.safenetsecurity.com",
+    "industry": "Cybersecurity",
+    "jobs": [
+      {
+        "id": "job-019",
+        "title": "Network Security Engineer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2017/09/09/06/39/traffic-signal-controller-panel-2731115_1280.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$700 - $900 / month",
+        "jobType": "Full-time",
+        "description": "Maintain and secure corporate networks.",
+        "requirements": [
+          "Experience with firewall and VPN",
+          "Knowledge of network protocols",
+          "Ability to troubleshoot network issues",
+          "Good documentation skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "FreshFoods Co.",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2920/2920340.png",
+    "location": "Sylhet, Bangladesh",
+    "website": "https://www.freshfoodsco.com",
+    "industry": "Food & Beverage",
+    "jobs": [
+      {
+        "id": "job-020",
+        "title": "Quality Control Officer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2020/11/06/03/43/protective-suit-5716753_960_720.jpg",
+        "location": "Sylhet, Bangladesh",
+        "salary": "$400 - $600 / month",
+        "jobType": "Full-time",
+        "description": "Ensure food quality meets safety standards.",
+        "requirements": [
+          "Experience in quality control",
+          "Knowledge of food safety standards",
+          "Good attention to detail",
+          "Strong reporting skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "SolarWave Energy",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2920/2920341.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.solarwaveenergy.com",
+    "industry": "Renewable Energy",
+    "jobs": [
+      {
+        "id": "job-021",
+        "title": "Solar Project Engineer",
+        "bannerImage": "https://cdn.pixabay.com/photo/2024/01/10/16/11/solar-8499901_1280.jpg",
+        "location": "Dhaka, Bangladesh",
+        "salary": "$700 - $900 / month",
+        "jobType": "Full-time",
+        "description": "Design and oversee solar power projects.",
+        "requirements": [
+          "Experience in solar project management",
+          "Knowledge of renewable energy systems",
+          "Strong technical skills",
+          "Good team collaboration"
+        ]
+      }
+    ]
+  }
+]

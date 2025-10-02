@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui" ;
+
+ @plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary:#007ea7 ;
+  --color-secondary: #fbbf24;
+  --color-base-100: #f9fafb;
+  --color-base-200: #1f2937;
+  --color-accent: #10b981;
+}
+
+.robot {
+  font-family: 'Roboto', sans-serif;
+}
+.pops {
+  font-family: 'Poppins', sans-serif;
+}

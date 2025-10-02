@@ -1,0 +1,77 @@
+[
+  {
+    "id": "faq-001",
+    "question": "How do I apply for a job?",
+    "answer": "Go to the job listing page and click on the 'Apply Now' button. Upload your resume and fill out the application form."
+  },
+  {
+    "id": "faq-002",
+    "question": "Do I need to create an account to apply?",
+    "answer": "Yes, you need to create a free account to apply for jobs and track your applications."
+  },
+  {
+    "id": "faq-003",
+    "question": "Is it free to use this platform?",
+    "answer": "Yes, job seekers can search and apply to jobs for free. Employers may need a subscription to post jobs."
+  },
+  {
+    "id": "faq-004",
+    "question": "How do I upload my resume?",
+    "answer": "After signing up, go to your profile settings and click 'Upload Resume' to attach your latest CV."
+  },
+  {
+    "id": "faq-005",
+    "question": "Can I edit my job application after submitting?",
+    "answer": "No, once you submit an application, it cannot be edited. Please double-check before applying."
+  },
+  {
+    "id": "faq-006",
+    "question": "How long does it take to hear back after applying?",
+    "answer": "Response time varies by employer, but most employers respond within 1–2 weeks."
+  },
+  {
+    "id": "faq-007",
+    "question": "What types of jobs are available?",
+    "answer": "We offer jobs across multiple industries, including IT, healthcare, finance, marketing, and more."
+  },
+  {
+    "id": "faq-008",
+    "question": "Can I save jobs to apply later?",
+    "answer": "Yes, you can bookmark or save job listings to your account and apply later."
+  },
+  {
+    "id": "faq-009",
+    "question": "How can employers post jobs?",
+    "answer": "Employers can register as a company account, purchase a job posting plan, and then publish their job listings."
+  },
+  {
+    "id": "faq-010",
+    "question": "Is my personal information safe?",
+    "answer": "Yes, we use secure encryption to protect your data and never share your information without consent."
+  },
+  {
+    "id": "faq-011",
+    "question": "Do you provide internship opportunities?",
+    "answer": "Yes, many employers post internships and entry-level opportunities on our platform."
+  },
+  {
+    "id": "faq-012",
+    "question": "Can I delete my account?",
+    "answer": "Yes, you can delete your account anytime from your account settings. All your data will be removed."
+  },
+  {
+    "id": "faq-013",
+    "question": "How do I contact support?",
+    "answer": "You can reach our support team via the 'Contact Us' page or email support@yourwebsite.com."
+  },
+  {
+    "id": "faq-014",
+    "question": "Can I apply for multiple jobs at once?",
+    "answer": "Yes, you can apply to as many jobs as you like. Each application will be tracked separately."
+  },
+  {
+    "id": "faq-015",
+    "question": "Do you verify employers?",
+    "answer": "Yes, we manually review and verify each employer before allowing them to post jobs to ensure authenticity."
+  }
+]

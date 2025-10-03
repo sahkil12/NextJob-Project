@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Sadia Rahman",
+    "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+    "job": "Frontend Developer at TechSoft",
+    "review": "This platform helped me land my first remote job. The process was smooth and user-friendly. I especially loved how clear the application steps were and how quickly I got feedback from the employers. It gave me confidence throughout the entire process.",
+    "date": "2025-10-01",
+    "rating": 5.0
+  },
+  {
+    "id": 2,
+    "name": "Tanvir Ahmed",
+    "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+    "job": "UI/UX Designer at CreativeHub",
+    "review": "I loved the clear job requirements and easy application process. Highly recommended! The platform also provides useful tips for preparing your portfolio, which made a huge difference in landing my dream role.",
+    "date": "2025-09-28",
+    "rating": 4.3
+  },
+  {
+    "id": 3,
+    "name": "Mithila Akter",
+    "photo": "https://randomuser.me/api/portraits/women/3.jpg",
+    "job": "Backend Engineer at CodeLab",
+    "review": "Great platform with real job opportunities. Got hired within two weeks of applying! The support team was responsive and offered guidance whenever I had questions, which made the experience seamless and stress-free.",
+    "date": "2025-09-25",
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "name": "Rafiq Islam",
+    "photo": "https://randomuser.me/api/portraits/men/4.jpg",
+    "job": "Fullstack Developer at WebWorks",
+    "review": "The job listings are up-to-date and the interview process guidance was very helpful. I appreciated how the platform provided additional resources to prepare for interviews, making me feel confident and well-prepared.",
+    "date": "2025-09-20",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Anika Hossain",
+    "photo": "https://randomuser.me/api/portraits/women/5.jpg",
+    "job": "Digital Marketer at MarketMinds",
+    "review": "Applying was simple, and I could find jobs that matched my skills perfectly. I also liked the personalized recommendations based on my profile, which saved me a lot of time and effort.",
+    "date": "2025-09-18",
+    "rating": 5.0
+  },
+  {
+    "id": 6,
+    "name": "Shahin Khan",
+    "photo": "https://randomuser.me/api/portraits/men/6.jpg",
+    "job": "Data Analyst at InsightCorp",
+    "review": "Excellent platform for professionals looking for remote opportunities. Loved it! The detailed company reviews and interview tips really helped me choose the right jobs for my career goals.",
+    "date": "2025-09-15",
+    "rating": 5.0
+  },
+  {
+    "id": 7,
+    "name": "Nusrat Jahan",
+    "photo": "https://randomuser.me/api/portraits/women/7.jpg",
+    "job": "Graphic Designer at PixelArt",
+    "review": "Very user-friendly and the support team is responsive. I got my dream job! The step-by-step guidance on building my portfolio was invaluable and helped me stand out to employers.",
+    "date": "2025-09-10",
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "name": "Imran Hossain",
+    "photo": "https://randomuser.me/api/portraits/men/8.jpg",
+    "job": "DevOps Engineer at CloudNet",
+    "review": "Clear process, easy to navigate, and lots of real opportunities. Highly recommended. I was particularly impressed by the consistent follow-ups and tips shared for optimizing my applications.",
+    "date": "2025-09-05",
+    "rating": 5.0
+  },
+  {
+    "id": 9,
+    "name": "Fatema Akter",
+    "photo": "https://randomuser.me/api/portraits/women/9.jpg",
+    "job": "Content Writer at WritePro",
+    "review": "The platform helped me find multiple opportunities quickly. Really appreciated it. I also learned about how to structure my CV and cover letters more effectively, which made a huge difference.",
+    "date": "2025-09-01",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Rashedul Islam",
+    "photo": "https://randomuser.me/api/portraits/men/10.jpg",
+    "job": "Mobile App Developer at AppStudio",
+    "review": "Professional and well-structured. Made finding the right job so much easier! I especially liked the way they recommended roles that matched my skills and experience, saving me time and effort.",
+    "date": "2025-08-28",
+    "rating": 5.0
+  }
+]

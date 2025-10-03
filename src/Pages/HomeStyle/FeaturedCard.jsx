@@ -8,9 +8,9 @@ const FeaturedCard = ( {feature} ) => {
     }
     return (
         <div className="border flex bg-base-100 flex-col md:flex-row gap-4 border-neutral-300 rounded-lg p-4 md:items-center hover:shadow-lg">
-            <img src={bannerImage} className="md:w-70 object-cover rounded-md md:h-56" alt={title} />
+            <img src={bannerImage} className=" md:w-70 object-cover rounded-md md:h-56" alt={title} />
             <div className="text-start space-y-4">
-                <h2 className="flex gap-4">
+                <h2 className="flex flex-wrap gap-4">
                     <span className="border px-6 py-1 rounded-full bg-orange-100 font-medium border-orange-300 text-orange-600">{highlight}</span>
                     <span className="border px-6 py-1 rounded-full bg-green-50 font-medium border-green-400 text-green-600">{jobType}</span>
                 </h2>

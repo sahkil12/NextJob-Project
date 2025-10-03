@@ -12,7 +12,7 @@ const Banner = () => {
         <h2 className="text-3xl md:text-6xl text-secondary font-bold">
           Find Your <span className="text-base-300">Dream</span> Job Today
         </h2>
-        <p className="md:w-[30%] mx-auto text-base/normal text-gray-100 font-normal opacity-85 md:text-xl">
+        <p className="w-10/12 lg:w-[30%] mx-auto text-base/normal text-gray-100 font-normal opacity-85 md:text-xl">
           Search thousands of opportunities and connect with employers who are
           hiring now.
         </p>

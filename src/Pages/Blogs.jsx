@@ -1,7 +1,12 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData, useNavigation } from "react-router-dom";
+import Loader from "../Errorpages/Loader";
 
 const Blogs = () => {
     const blogs = useLoaderData([])
+    const navigation = useNavigation()
+    if(navigation.state === 'loading'){
+        return <Loader></Loader>
+    }
     return (
        <section className="bg-base-300">
 	<div className="container max-w-7xl p-6 mx-auto space-y-6 sm:space-y-12">

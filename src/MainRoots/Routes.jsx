@@ -7,6 +7,7 @@ import Contact from "../Pages/Contact";
 import Jobs from "../Pages/Jobs";
 import Companies from "../Pages/Companies";
 import ErrorPage from "../Errorpages/ErrorPage";
+import BlogDetails from "../components/BlogDetails";
 
 export const router = createBrowserRouter([
   {
@@ -24,7 +25,13 @@ export const router = createBrowserRouter([
       },
       {
         path:'blogs',
-        element:<Blogs></Blogs>
+        element:<Blogs></Blogs>,
+        loader: ()=> fetch('/blogs.json'),
+      },
+      {
+        path:'blog/:id',
+        element:<BlogDetails></BlogDetails>,
+        loader: ()=> fetch('/blogs.json'),
       },
       {
         path:'contact',

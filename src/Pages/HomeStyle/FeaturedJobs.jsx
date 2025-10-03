@@ -1,17 +1,23 @@
 import { useEffect, useState } from "react";
 import FeaturedCard from "./FeaturedCard";
+import { useNavigation } from "react-router-dom";
+import Loader from "../../Errorpages/Loader";
 
 const FeaturedJobs = () => {
     const [featuredJob, setFeaturedJob] = useState([])
+    const navigate = useNavigation()
     useEffect(()=>{
         fetch('/featuredJobs.json')
         .then(res=> res.json())
         .then(data => setFeaturedJob(data))
     },[])
+    if(navigate.state === 'loading'){
+        return <Loader></Loader>;
+    }
     return (
         <div className="md:w-[80%] mx-auto my-10 py-7 pops text-center">
            <div className="space-y-7">
-             <h2 className="text-4xl md:text-5xl  font-bold text-accent">Featured Jobs</h2>
+             <h2 className="text-4xl md:text-5xl underline font-bold text-accent">Featured Jobs</h2>
             <p className="text-lg text-base-200 font-medium">Explore the latest opportunities from top companies. Find your next career move today.</p>
            </div>
            <div className="grid grid-cols-1 md:grid-cols-2 gap-7 my-8">

@@ -1,8 +1,13 @@
+import { useNavigation } from "react-router-dom";
 
 const FeaturedCard = ( {feature} ) => {
+    const navigate = useNavigation()
      const {title, bannerImage, company, highlight, jobType, location, salary } = feature;
+     if(navigate.state === 'loading'){
+        return <Loader></Loader>;
+    }
     return (
-        <div className="border flex flex-col md:flex-row gap-4 border-neutral-300 rounded-lg p-4 md:items-center hover:shadow-lg">
+        <div className="border flex bg-base-100 flex-col md:flex-row gap-4 border-neutral-300 rounded-lg p-4 md:items-center hover:shadow-lg">
             <img src={bannerImage} className="md:w-70 object-cover rounded-md md:h-56" alt={title} />
             <div className="text-start space-y-4">
                 <h2 className="flex gap-4">

@@ -8,6 +8,9 @@ import Jobs from "../Pages/Jobs";
 import Companies from "../Pages/Companies";
 import ErrorPage from "../Errorpages/ErrorPage";
 import BlogDetails from "../components/BlogDetails";
+import Auth from "../Auth/Auth";
+import Login from "../Auth/Login";
+import SignUp from "../Auth/SignUp";
 
 export const router = createBrowserRouter([
   {
@@ -47,4 +50,18 @@ export const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path:'/auth',
+    element:<Auth></Auth>,
+    children:[
+      {
+        path:'/auth/login',
+        element:<Login></Login>,
+      },
+      {
+        path:'/auth/signup',
+        element:<SignUp></SignUp>
+      }
+    ]
+  }
 ]);

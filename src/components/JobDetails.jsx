@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 
 const JobDetails = () => {
@@ -6,7 +7,10 @@ const JobDetails = () => {
   const job = jobs.find((job) => job.id === id);
 
   return (
-    <div className="bg-base-300 min-h-screen py-20">
+    <div className="bg-base-300 min-h-screen py-20 pops">
+        <Helmet>
+        <title>Job {id} Details| NexJob</title>
+      </Helmet>
       <div className="max-w-7xl mx-auto bg-base-100 rounded-xl p-6 border border-neutral-300  shadow-xl overflow-hidden">
         {/* Header */}
         <div className=" h-70 w-full">

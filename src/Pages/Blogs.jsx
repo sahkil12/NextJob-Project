@@ -1,5 +1,6 @@
 import { Link, useLoaderData, useNavigation } from "react-router-dom";
 import Loader from "../Errorpages/Loader";
+import { Helmet } from "react-helmet";
 
 const Blogs = () => {
     const blogs = useLoaderData([])
@@ -8,7 +9,10 @@ const Blogs = () => {
         return <Loader></Loader>
     }
     return (
-       <section className="bg-base-300">
+       <section className="bg-base-300 pops">
+		<Helmet>
+        <title>Blogs | NexJob</title>
+      </Helmet>
 	<div className="container max-w-7xl p-6 mx-auto space-y-6 sm:space-y-12">
 		<Link to={`/blog/${blogs[0].id}`}   className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
 			<img src={blogs[0].bannerImage} alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7" />

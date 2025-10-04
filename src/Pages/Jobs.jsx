@@ -1,10 +1,14 @@
 import { useLoaderData } from "react-router-dom";
 import JobCard from "../components/JobCard";
+import { Helmet } from "react-helmet";
 
 const Jobs = () => {
   const jobs = useLoaderData([]);
   return (
-    <div className="bg-base-300">
+    <div className="bg-base-300 pops">
+        <Helmet>
+        <title>Jobs | NexJob</title>
+      </Helmet>
       <div className=" w-11/12 mx-auto pops min-h-screen">
         <section className="py-10 space-y-8">
           {/* heading section */}

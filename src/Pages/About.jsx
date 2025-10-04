@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div className="full bg-accent/5 min-h-screen pops">
+      <Helmet>
+        <title>About | NexJob</title>
+      </Helmet>
       <div className="md:w-10/12 mx-auto">
         <div className=" py-10 text-center">
           <h1 className="text-4xl md:text-6xl font-bold ">

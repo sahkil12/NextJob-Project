@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import toast from "react-hot-toast";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 
@@ -8,6 +9,9 @@ const Contact = () => {
     }
     return (
       <div className="bg-primary/5">
+        <Helmet>
+        <title>Contact Us | NexJob</title>
+      </Helmet>
          <div className="lg:w-[80%] mx-auto py-10 p-6 pops ">
       {/* Title */}
       <div className="text-center space-y-5 mb-10 md:my-16">

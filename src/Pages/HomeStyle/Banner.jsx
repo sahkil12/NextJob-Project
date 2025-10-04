@@ -19,11 +19,11 @@ const Banner = () => {
 
         <div>
           <Link
-            class="relative inline-block text-xl px-10 py-4 font-bold group"
+            className="relative inline-block text-xl px-10 py-4 font-bold group"
             >
-            <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-base-300 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-            <span class="absolute inset-0 w-full h-full bg-secondary border-2 border-base-200 group-hover:bg-secondary"></span>
-            <span class="relative font-bold text-base-200 group-hover:text-base-30">
+            <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-base-300 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+            <span className="absolute inset-0 w-full h-full bg-secondary border-2 border-base-200 group-hover:bg-secondary"></span>
+            <span className="relative font-bold text-base-200 group-hover:text-base-30">
               Browse Jobs
             </span>
           </Link>

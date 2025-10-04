@@ -1,7 +1,6 @@
 
 const ReviewCard = ({reviews}) => {
     const {date, job, name, photo, rating, review} = reviews;
-    console.log(reviews);
     return (
         <div className="container flex flex-col w-fit sm:w-full max-w-lg p-6 mx-auto divide-y rounded-md dark:divide-gray-400 bg-base-100">
 	<div className="flex justify-between p-4">

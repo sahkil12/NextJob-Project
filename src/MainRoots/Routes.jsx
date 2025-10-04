@@ -12,6 +12,7 @@ import Auth from "../Auth/Auth";
 import Login from "../Auth/Login";
 import SignUp from "../Auth/SignUp";
 import PrivateRoute from './../Provider/PrivateRoute';
+import JobDetails from "../components/JobDetails";
 
 export const router = createBrowserRouter([
   {
@@ -43,11 +44,18 @@ export const router = createBrowserRouter([
       },
       {
         path:'jobs',
-        element:<Jobs></Jobs>
+        element:<Jobs></Jobs>,
+        loader:()=>fetch('/jobs.json')
+      },
+      {
+        path:'job/details/:id',
+        element:<PrivateRoute><JobDetails></JobDetails></PrivateRoute>,
+        loader:()=>fetch('/jobs.json')
       },
       {
         path:'companies',
-        element:<Companies></Companies>
+        element:<Companies></Companies>,
+        loader:()=>fetch('/companies.json')
       }
     ]
   },

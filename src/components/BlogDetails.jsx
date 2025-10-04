@@ -10,7 +10,7 @@ const BlogDetails = () => {
     return (
         <div className="mx-auto lg:w-[70%] border-2 my-10 p-3 md:p-5 rounded-lg border-neutral-300 bg-base-300 flex flex-col gap-4 space-y-6 pops">
             
-            <img src={bannerImage} alt={title} className="rounded-md md:h-130 object-cover" />
+            <img src={bannerImage || '/error.png'} alt={title} className="rounded-md md:h-130 object-cover" />
             <div className="space-y-3">
                 <h3 className="text-lg font-medium text-neutral-500">{date}</h3>
                 {/* details */}

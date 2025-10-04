@@ -22,7 +22,7 @@ const Blogs = () => {
 			{
                 blogs.slice(1,14).map(blog => (
                     <Link to={`/blog/${blog.id}`} key={blog.id} rel="noopener noreferrer" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-base-100 p-4 rounded-md">
-				<img role="presentation" className="object-cover w-full rounded h-54" src={blog.bannerImage} />
+				<img role="presentation" className="object-cover w-full rounded h-54"  src={blog.bannerImage || '/error.png'} alt={blog.title || "Blog banner image"}/>
 				<div className="p-6 space-y-2">
 					<h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">{blog.title}</h3>
 					<span className="text-xs ">{blog.date}</span>

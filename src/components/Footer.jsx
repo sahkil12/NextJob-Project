@@ -29,7 +29,7 @@ const Footer = () => {
     
             <div className="flex gap-2 items-center">
               <img
-                src="/public/job logo.png"
+                src="/job logo.png"
                 className="w-10 h-10 md:w-14 md:h-14 "
                 alt=""
               />

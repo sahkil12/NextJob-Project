@@ -1,0 +1,386 @@
+[
+  {
+    "id": "job-001",
+    "companyId": "0",
+    "title": "Frontend Developer",
+    "bannerImage": "https://cdn.pixabay.com/photo/2017/05/31/11/17/office-2360063_1280.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$500 - $700 / month",
+    "jobType": "Full-time",
+    "description": "Join our frontend team to build responsive web applications. Collaborate closely with UX designers and backend developers to implement high-quality, scalable, and maintainable code. Participate in code reviews, troubleshoot frontend issues, and contribute innovative ideas to enhance user experience.",
+    "requirements": [
+      "Proficient in HTML, CSS, JavaScript",
+      "Experience with React.js",
+      "Familiarity with REST APIs",
+      "Good understanding of responsive design",
+      "Excellent problem-solving skills"
+    ],
+    "companyWebsite": "https://www.techsoftsolutions.com",
+    "postedDate": "2025-09-28"
+  },
+  {
+    "id": "job-002",
+    "companyId": "1",
+    "title": "UI/UX Designer",
+    "bannerImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fit=crop&w=800&q=80",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$450 - $650 / month",
+    "jobType": "Remote",
+    "description": "Design intuitive interfaces for web applications. Conduct user research, create wireframes and prototypes, and perform usability testing. Collaborate with product managers and developers to ensure seamless user experiences and visually appealing designs.",
+    "requirements": [
+      "Proficient in Figma or Adobe XD",
+      "Experience with wireframing and prototyping",
+      "Understanding of responsive design",
+      "Strong visual and communication skills"
+    ],
+    "companyWebsite": "https://www.creativehub.com",
+    "postedDate": "2025-09-27"
+  },
+  {
+    "id": "job-003",
+    "companyId": "2",
+    "title": "Backend Developer",
+    "bannerImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fit=crop&w=800&q=80",
+    "location": "Chittagong, Bangladesh",
+    "salary": "$600 - $800 / month",
+    "jobType": "Full-time",
+    "description": "Work on scalable backend APIs and services. Design and maintain server-side logic, database schemas, and integrate third-party services. Optimize application performance, ensure security best practices, and troubleshoot complex backend issues.",
+    "requirements": [
+      "Strong knowledge of Node.js or Python",
+      "Experience with databases (SQL/NoSQL)",
+      "Familiarity with RESTful APIs",
+      "Cloud platform experience (AWS/GCP)",
+      "Good debugging skills"
+    ],
+    "companyWebsite": "https://www.devcloud.com",
+    "postedDate": "2025-09-26"
+  },
+  {
+    "id": "job-004",
+    "companyId": "3",
+    "title": "Full Stack Developer",
+    "bannerImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=800&q=80",
+    "location": "Remote",
+    "salary": "$800 - $1000 / month",
+    "jobType": "Remote",
+    "description": "Work on both frontend and backend of our fintech platform. Build end-to-end features, maintain code quality, perform testing, and ensure applications are scalable, reliable, and secure. Collaborate with team members to deliver high-quality solutions.",
+    "requirements": [
+      "Proficient in React and Node.js",
+      "Experience with SQL/NoSQL databases",
+      "Knowledge of cloud infrastructure",
+      "Ability to write clean, maintainable code",
+      "Good team collaboration skills"
+    ],
+    "companyWebsite": "https://www.fintechpro.com",
+    "postedDate": "2025-09-25"
+  },
+  {
+    "id": "job-005",
+    "companyId": "4",
+    "title": "Digital Marketing Specialist",
+    "bannerImage": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg",
+    "location": "Sylhet, Bangladesh",
+    "salary": "$400 - $600 / month",
+    "jobType": "Full-time",
+    "description": "Develop and implement marketing strategies across multiple digital platforms. Monitor campaign performance, optimize content, and analyze metrics for better engagement. Collaborate with designers and content creators to ensure consistent brand messaging and measurable growth.",
+    "requirements": [
+      "Experience with SEO and SEM",
+      "Knowledge of social media campaigns",
+      "Good analytics and reporting skills",
+      "Creative thinking and problem-solving"
+    ],
+    "companyWebsite": "https://www.marketinggenius.com",
+    "postedDate": "2025-09-24"
+  },
+  {
+    "id": "job-006",
+    "companyId": "5",
+    "title": "Project Manager",
+    "bannerImage": "https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091_960_720.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$700 - $900 / month",
+    "jobType": "Remote",
+    "description": "Manage renewable energy projects from planning to execution. Coordinate teams, allocate resources efficiently, track project progress, and ensure timely delivery. Communicate with stakeholders and manage budgets while maintaining high-quality standards.",
+    "requirements": [
+      "Proven experience as a project manager",
+      "Knowledge of energy industry trends",
+      "Excellent organizational and leadership skills",
+      "Ability to manage budgets and timelines",
+      "Strong communication and reporting skills"
+    ],
+    "companyWebsite": "https://www.renewenergy.com",
+    "postedDate": "2025-09-23"
+  },
+  {
+    "id": "job-007",
+    "companyId": "6",
+    "title": "Machine Learning Engineer",
+    "bannerImage": "https://cdn.pixabay.com/photo/2015/01/08/18/30/man-593372_1280.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$900 - $1200 / month",
+    "jobType": "Part-time",
+    "description": "Develop and optimize machine learning models for AI applications. Preprocess data, design algorithms, evaluate model performance, and deploy solutions. Collaborate with data scientists and engineers to create impactful AI solutions that improve business outcomes.",
+    "requirements": [
+      "Experience with Python and ML frameworks",
+      "Knowledge of TensorFlow or PyTorch",
+      "Understanding of data preprocessing and feature engineering",
+      "Strong problem-solving skills",
+      "Ability to work in a collaborative team"
+    ],
+    "companyWebsite": "https://www.aiinnovators.com",
+    "postedDate": "2025-09-22"
+  },
+  {
+    "id": "job-008",
+    "companyId": "7",
+    "title": "Healthcare Data Analyst",
+    "bannerImage": "https://cdn.pixabay.com/photo/2016/11/19/13/08/business-1839191_1280.jpg",
+    "location": "Chittagong, Bangladesh",
+    "salary": "$600 - $800 / month",
+    "jobType": "Full-time",
+    "description": "Analyze healthcare data to improve patient outcomes. Generate reports, identify trends, and provide actionable insights for clinical teams. Ensure data integrity, assist in decision-making, and help implement data-driven improvements in healthcare services.",
+    "requirements": [
+      "Experience with data analytics tools",
+      "Knowledge of SQL and Python",
+      "Understanding of healthcare data standards",
+      "Strong problem-solving skills",
+      "Good communication skills"
+    ],
+    "companyWebsite": "https://www.healthanalytics.com",
+    "postedDate": "2025-09-21"
+  },
+  {
+    "id": "job-009",
+    "companyId": "8",
+    "title": "React Instructor",
+    "bannerImage": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$400 - $600 / month",
+    "jobType": "Part-time",
+    "description": "Teach React.js to students in a structured curriculum. Prepare lesson plans, conduct live sessions, assess student progress, and provide guidance on projects. Foster an engaging and interactive learning environment to help students master React.js effectively.",
+    "requirements": [
+      "Strong knowledge of React.js",
+      "Experience with teaching or mentoring",
+      "Good communication skills",
+      "Ability to create lesson plans"
+    ],
+    "companyWebsite": "https://www.codemasteracademy.com",
+    "postedDate": "2025-09-20"
+  },
+  {
+    "id": "job-010",
+    "companyId": "9",
+    "title": "Travel Coordinator",
+    "bannerImage": "https://cdn.pixabay.com/photo/2023/03/11/11/34/travelling-7844283_960_720.jpg",
+    "location": "Sylhet, Bangladesh",
+    "salary": "$350 - $500 / month",
+    "jobType": "Full-time",
+    "description": "Coordinate travel plans and packages for clients. Handle bookings, manage schedules, liaise with hotels and transport services, and ensure client satisfaction. Provide travel recommendations and manage any issues that arise during trips.",
+    "requirements": [
+      "Experience in travel industry",
+      "Good organizational skills",
+      "Communication skills",
+      "Problem-solving ability"
+    ],
+    "companyWebsite": "https://www.travelconnect.com",
+    "postedDate": "2025-09-19"
+  },
+  {
+    "id": "job-011",
+    "companyId": "10",
+    "title": "E-Commerce Manager",
+    "bannerImage": "https://cdn.pixabay.com/photo/2016/12/20/22/32/holiday-shopping-1921658_960_720.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$500 - $700 / month",
+    "jobType": "Part-time",
+    "description": "Manage online sales and e-commerce operations. Oversee product listings, promotions, customer engagement, and order fulfillment. Analyze sales data, optimize the online store, and coordinate with marketing to increase revenue and customer satisfaction.",
+    "requirements": [
+      "Experience in e-commerce management",
+      "Knowledge of online marketing",
+      "Good organizational skills",
+      "Strong communication skills"
+    ],
+    "companyWebsite": "https://www.onlinemarketpro.com",
+    "postedDate": "2025-09-18"
+  },
+  {
+    "id": "job-012",
+    "companyId": "11",
+    "title": "Content Writer",
+    "bannerImage": "https://cdn.pixabay.com/photo/2014/03/22/22/15/social-media-292988_960_720.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$350 - $500 / month",
+    "jobType": "Full-time",
+    "description": "Create engaging content for media campaigns. Research industry trends, develop ideas, and produce high-quality articles, blogs, and social media posts. Ensure content aligns with brand voice and SEO best practices for maximum reach.",
+    "requirements": [
+      "Excellent writing skills",
+      "Experience in digital content creation",
+      "Understanding of SEO",
+      "Good research skills"
+    ],
+    "companyWebsite": "https://www.contentcreators.com",
+    "postedDate": "2025-09-17"
+  },
+  {
+    "id": "job-013",
+    "companyId": "12",
+    "title": "Cybersecurity Analyst",
+    "bannerImage": "https://cdn.pixabay.com/photo/2024/10/24/11/39/data-security-9145391_960_720.jpg",
+    "location": "Chittagong, Bangladesh",
+    "salary": "$700 - $900 / month",
+    "jobType": "Remote",
+    "description": "Monitor and protect company systems from cyber threats. Conduct security assessments, implement protective measures, analyze network traffic, and respond to incidents. Work with IT teams to maintain system integrity and ensure data confidentiality.",
+    "requirements": [
+      "Experience with security tools",
+      "Knowledge of network security",
+      "Ability to analyze threats",
+      "Good problem-solving skills"
+    ],
+    "companyWebsite": "https://www.cybersafeguard.com",
+    "postedDate": "2025-09-16"
+  },
+  {
+    "id": "job-014",
+    "companyId": "13",
+    "title": "Mobile App Developer",
+    "bannerImage": "https://cdn.pixabay.com/photo/2023/08/10/05/57/android-app-development-8180855_960_720.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$600 - $800 / month",
+    "jobType": "Full-time",
+    "description": "Develop mobile applications for Android and iOS. Design user interfaces, implement functionality, and integrate APIs. Test applications for usability and performance, debug issues, and collaborate with team members to deliver quality apps on time.",
+    "requirements": [
+      "Experience in Flutter or React Native",
+      "Knowledge of mobile UI/UX design",
+      "Good debugging skills",
+      "Team collaboration"
+    ],
+    "companyWebsite": "https://www.mobiledevhub.com",
+    "postedDate": "2025-09-15"
+  },
+  {
+    "id": "job-015",
+    "companyId": "14",
+    "title": "Civil Engineer",
+    "bannerImage": "https://cdn.pixabay.com/photo/2020/03/12/13/41/engineer-4925131_960_720.jpg",
+    "location": "Sylhet, Bangladesh",
+    "salary": "$700 - $900 / month",
+    "jobType": "Remote",
+    "description": "Plan and oversee construction projects. Prepare blueprints, supervise workers, manage materials, and ensure projects meet deadlines and quality standards. Coordinate with architects, contractors, and clients to deliver successful construction outcomes.",
+    "requirements": [
+      "Degree in Civil Engineering",
+      "Experience in project management",
+      "Knowledge of construction standards",
+      "Strong organizational skills"
+    ],
+    "companyWebsite": "https://www.civilengineers.com",
+    "postedDate": "2025-09-14"
+  },
+  {
+    "id": "job-016",
+    "companyId": "15",
+    "title": "Math Instructor",
+    "bannerImage": "https://cdn.pixabay.com/photo/2017/06/19/03/18/iphone-2418042_960_720.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$400 - $600 / month",
+    "jobType": "Part-time",
+    "description": "Teach math courses to students of various levels. Prepare lesson plans, conduct engaging classes, assign homework, and evaluate student performance. Provide additional support and mentoring to help students understand complex mathematical concepts.",
+    "requirements": [
+      "Strong knowledge of mathematics",
+      "Teaching experience",
+      "Good communication skills",
+      "Ability to explain complex concepts"
+    ],
+    "companyWebsite": "https://www.mathacademy.com",
+    "postedDate": "2025-09-13"
+  },
+  {
+    "id": "job-017",
+    "companyId": "16",
+    "title": "Robotics Engineer",
+    "bannerImage": "https://cdn.pixabay.com/photo/2020/03/09/13/53/engineer-4915794_1280.jpg",
+    "location": "Chittagong, Bangladesh",
+    "salary": "$900 - $1200 / month",
+    "jobType": "Full-time",
+    "description": "Design and develop robotics systems. Work on mechanical, electrical, and software components to create fully functional robots. Conduct testing, debugging, and optimization, while collaborating with multidisciplinary teams to meet project objectives.",
+    "requirements": [
+      "Experience with robotics frameworks",
+      "Knowledge of sensors and actuators",
+      "Programming skills in Python/C++",
+      "Problem-solving skills"
+    ],
+    "companyWebsite": "https://www.roboticshub.com",
+    "postedDate": "2025-09-12"
+  },
+  {
+    "id": "job-018",
+    "companyId": "17",
+    "title": "Architect",
+    "bannerImage": "https://cdn.pixabay.com/photo/2016/11/24/20/30/floor-plan-1857175_960_720.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$800 - $1000 / month",
+    "jobType": "Full-time",
+    "description": "Design residential and commercial buildings. Prepare architectural plans, select materials, and collaborate with construction teams. Ensure compliance with building codes and client requirements while creating aesthetically pleasing and functional designs.",
+    "requirements": [
+      "Degree in Architecture",
+      "Experience in building design",
+      "Knowledge of CAD software",
+      "Good project management skills"
+    ],
+    "companyWebsite": "https://www.architectspro.com",
+    "postedDate": "2025-09-11"
+  },
+  {
+    "id": "job-019",
+    "companyId": "18",
+    "title": "Network Security Engineer",
+    "bannerImage": "https://cdn.pixabay.com/photo/2017/09/09/06/39/traffic-signal-controller-panel-2731115_1280.jpg",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$700 - $900 / month",
+    "jobType": "Full-time",
+    "description": "Maintain and secure corporate networks. Implement firewall rules, monitor network traffic, troubleshoot connectivity issues, and ensure robust security. Work with IT teams to protect company data and maintain system reliability.",
+    "requirements": [
+      "Experience with firewall and VPN",
+      "Knowledge of network protocols",
+      "Ability to troubleshoot network issues",
+      "Good documentation skills"
+    ],
+    "companyWebsite": "https://www.networksecure.com",
+    "postedDate": "2025-09-10"
+  },
+  {
+    "id": "job-020",
+    "companyId": "19",
+    "title": "Quality Control Officer",
+    "bannerImage": "https://www.talentmark.com/nl/wp-content/uploads/sites/3/2024/06/quality-control-food-factory.jpg",
+    "location": "Chittagong, Bangladesh",
+    "salary": "$500 - $700 / month",
+    "jobType": "Full-time",
+    "description": "Monitor production processes to ensure quality standards are met. Inspect materials, conduct tests, document findings, and report defects. Work closely with production teams to implement improvements and maintain compliance with quality regulations.",
+    "requirements": [
+      "Experience in quality control",
+      "Knowledge of industry standards",
+      "Attention to detail",
+      "Good reporting skills"
+    ],
+    "companyWebsite": "https://www.qualityinspect.com",
+    "postedDate": "2025-09-09"
+  },
+  {
+    "id": "job-021",
+    "companyId": "20",
+    "title": "Graphic Designer",
+    "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzX8ezrIaWoGjTGv8n5R8Uk5nhUM_AtKgKwg&s",
+    "location": "Dhaka, Bangladesh",
+    "salary": "$450 - $650 / month",
+    "jobType": "Full-time",
+    "description": "Create visual content for marketing campaigns, websites, and social media. Develop graphics, illustrations, and layouts to communicate ideas effectively. Collaborate with marketing teams to ensure brand consistency and engaging visuals.",
+    "requirements": [
+      "Proficient in Adobe Creative Suite",
+      "Strong creativity and design skills",
+      "Attention to detail",
+      "Good communication skills"
+    ],
+    "companyWebsite": "https://www.creativevisuals.com",
+    "postedDate": "2025-09-08"
+  }
+]

@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { useContext, useRef, useState } from "react";
@@ -12,16 +12,15 @@ const Login = () => {
   const { loginUser, googleLogin, githubLogin, forgatPassword } =useContext(AuthContext)
   const navigate = useNavigate()  
   const emailRef = useRef('')
+  const location = useLocation()
   const handleSubmit = (e) => {
     e.preventDefault();
     const password = e.target.password.value;
     const email = e.target.email.value;
-    console.log( email, password);
     //login user 
     loginUser(email, password)
     .then(result => {
-    console.log("User created:", result.user);
-    navigate('/')
+    navigate(`${location.state ? location.state : '/'}`)
   })
   .catch(err => {
     setError(err.message);
@@ -31,8 +30,7 @@ const Login = () => {
   const googleUserLogin = () =>{
     googleLogin()
     .then(result => {
-      console.log("Google user:", result.user);
-      navigate("/");
+      navigate(`${location.state ? location.state : '/'}`)
     })
     .catch(err => setError(err.message));
 }
@@ -40,8 +38,7 @@ const Login = () => {
 const githubUserLogin = () =>{
     githubLogin()
      .then(result => {
-      console.log("GitHub user:", result.user);
-      navigate("/");
+       navigate(`${location.state ? location.state : '/'}`)
     })
     .catch(err => setError(err.message));
 }

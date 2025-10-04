@@ -1,15 +1,14 @@
 import toast from "react-hot-toast";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 
-
 const Contact = () => {
     const handleForm = e =>{
         e.preventDefault()
         toast.success('Massage Sent SuccessFully')
     }
     return (
-      <div className="bg-base-300">
-         <div className="md:w-[80%] mx-auto py-10 p-6 pops ">
+      <div className="bg-primary/5">
+         <div className="lg:w-[80%] mx-auto py-10 p-6 pops ">
       {/* Title */}
       <div className="text-center space-y-5 mb-10 md:my-16">
         <h2 className="text-4xl md:text-6xl font-bold text-accent">Contact With<span className="text-secondary"> Us</span></h2>
@@ -55,7 +54,7 @@ const Contact = () => {
           <button className="btn btn-secondary w-full">Send Message</button>
         </form>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 hidden xl:flex">
         {/* img */}
         <img src="/public/mobileIcon.png" className="w-full h-full rounded-lg" alt="" />
       </div>

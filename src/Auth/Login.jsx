@@ -4,6 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 import { useContext, useRef, useState } from "react";
 import { IoEye, IoEyeOff } from "react-icons/io5";
 import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Login = () => {
   const [error, setError] = useState("");
@@ -27,7 +28,6 @@ const Login = () => {
   });
   };
   //   google sign up
-
   const googleUserLogin = () =>{
     googleLogin()
     .then(result => {
@@ -37,7 +37,6 @@ const Login = () => {
     .catch(err => setError(err.message));
 }
 // github sign Up
-
 const githubUserLogin = () =>{
     githubLogin()
      .then(result => {
@@ -49,7 +48,7 @@ const githubUserLogin = () =>{
 const forgatPass = () =>{
     const email = emailRef.current.value
     forgatPassword(email)
-   .then(() => alert("Password reset email sent! Please check your inbox."))
+   .then(() => toast.success("Password reset email sent! Please check your inbox."))
     .catch(err => setError(err.message));
 }
   return (

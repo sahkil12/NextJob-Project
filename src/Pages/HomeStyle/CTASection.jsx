@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const CTASection = () => {
     return (
@@ -10,12 +11,12 @@ const CTASection = () => {
         Join thousands of professionals who already landed their dream career with us.
       </p>
       <div className="flex flex-col sm:flex-row justify-center gap-4">
-        <button className="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
+        <Link to={'/jobs'} className="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
           Browse Jobs
-        </button>
-        <button className="bg-secondary text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-secondary/90 transition">
+        </Link>
+        <Link to={'/companies'} className="bg-secondary text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-secondary/90 transition">
           See Company
-        </button>
+        </Link>
       </div>
     </div>
         </div>

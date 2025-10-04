@@ -5,15 +5,15 @@ const Profile = () => {
     const { user,  setIsOpen  } = useContext(AuthContext) 
     return (
         <div className="">
-        <div className="modal modal-open">
-          <div className="modal-box relative ">
+        <div className="modal modal-open ">
+          <div className="modal-box relative py-20 bg-base-300">
             <button
               onClick={() => setIsOpen(false)}
-              className="btn btn-sm btn-primary btn-circle absolute right-2 top-2"
+              className="btn btn-md btn-primary btn-circle absolute right-2 top-2"
             >
               ✕
             </button>
-            <div className=" flex flex-col justify-center max-w-xs py-16 shadow-2xl rounded-xl sm:px-12 mx-auto space-y-5">
+            <div className="bg-base-100 flex flex-col justify-center max-w-md py-16 shadow-2xl rounded-xl sm:px-12 mx-auto space-y-5">
 	<img src={user.photoURL} alt="" className="w-36 h-36 mx-auto rounded-full border-2 border-primary " />
 	<div className="space-y-4 text-center divide-y dark:divide-gray-300">
 		<div className="my-3 text-center space-y-2">

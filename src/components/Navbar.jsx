@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import Profile from "./Profile";
 
 const Navbar = () => {
   const links = (
@@ -79,7 +80,7 @@ const Navbar = () => {
       </li>
     </>
   );
-  const { user, signOutUser } = useContext(AuthContext);
+  const { user, signOutUser, setIsOpen, isOpen } = useContext(AuthContext);
   console.log(user);
   const handleSignOut = () => {
     signOutUser()
@@ -139,8 +140,10 @@ const Navbar = () => {
         {user ? (
           <div className="flex items-center gap-3 ">
             <p className="hidden sm:flex font-bold text-primary">{user.displayName}</p>
+            <Link onClick={()=>setIsOpen(true)}>
             <img className="rounded-full w-10 h-10 md:w-13 md:h-13" 
             src={user.photoURL ? `${user.photoURL}` : '/profile-user.png'} alt="" />
+            </Link>
             <Link
             onClick={handleSignOut}
             to={"/auth/login"}
@@ -162,6 +165,9 @@ const Navbar = () => {
             </Link>
           </div>
         )}
+        {
+          isOpen && <Profile></Profile> 
+        }
       </div>
     </div>
   );

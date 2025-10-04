@@ -80,6 +80,7 @@ const Navbar = () => {
     </>
   );
   const { user, signOutUser } = useContext(AuthContext);
+  console.log(user);
   const handleSignOut = () => {
     signOutUser()
       .then(() => {
@@ -135,15 +136,19 @@ const Navbar = () => {
         <ul className="menu gap-5 menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        {user && <p>{user.email}</p>}
         {user ? (
-          <Link
+          <div className="flex items-center gap-3 ">
+            <p className="hidden sm:flex font-bold text-primary">{user.displayName}</p>
+            <img className="rounded-full w-10 h-10 md:w-13 md:h-13" 
+            src={user.photoURL ? `${user.photoURL}` : '/profile-user.png'} alt="" />
+            <Link
             onClick={handleSignOut}
             to={"/auth/login"}
-            className="btn btn-primary px-6 text-base"
+            className="btn btn-primary px-5 py-3 md:px-6 md:py-4 text-base"
           >
             Sign Out
           </Link>
+          </div>
         ) : (
           <div className="flex gap-2">
             <Link

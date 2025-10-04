@@ -9,7 +9,7 @@ const SignUp = () => {
   const [error, setError] = useState("");
   const [nameError, setNameError] = useState("");
   const [show, setShow] = useState(false);
-  const { signUpUser, googleLogin, githubLogin } = useContext(AuthContext)
+  const { signUpUser, googleLogin, githubLogin, updateUserProfile, setUser } = useContext(AuthContext)
   const navigate = useNavigate()  
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,15 +43,23 @@ const SignUp = () => {
     // signup
     signUpUser(email, password)
     .then(result => {
+        const user = result.user
     console.log("User created:", result.user);
-    navigate('/')
+    updateUserProfile({ displayName: name, photoURL: '' })
+    .then(()=>{
+        setUser({...user, displayName: name, photoURL: '' })
+        navigate('/')
+    })
+    .catch((error) => {
+            setUser(user)
+            navigate("/");
+          });
   })
   .catch(err => {
     setError(err.message);
   });
 };
 //   google sign up
-
   const googleSignUp = () =>{
     googleLogin()
     .then(result => {

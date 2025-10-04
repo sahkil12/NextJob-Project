@@ -11,6 +11,7 @@ import BlogDetails from "../components/BlogDetails";
 import Auth from "../Auth/Auth";
 import Login from "../Auth/Login";
 import SignUp from "../Auth/SignUp";
+import PrivateRoute from './../Provider/PrivateRoute';
 
 export const router = createBrowserRouter([
   {
@@ -33,7 +34,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'blog/:id',
-        element:<BlogDetails></BlogDetails>,
+        element:<PrivateRoute><BlogDetails></BlogDetails></PrivateRoute> ,
         loader: ()=> fetch('/blogs.json'),
       },
       {

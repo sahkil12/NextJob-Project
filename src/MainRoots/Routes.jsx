@@ -12,7 +12,6 @@ import Auth from "../Auth/Auth";
 import Login from "../Auth/Login";
 import SignUp from "../Auth/SignUp";
 import PrivateRoute from './../Provider/PrivateRoute';
-import Profile from "../components/Profile";
 
 export const router = createBrowserRouter([
   {

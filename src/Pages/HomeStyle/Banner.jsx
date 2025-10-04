@@ -18,8 +18,9 @@ const Banner = () => {
         </p>
 
         <div>
-          <Link
-            className="relative inline-block text-xl px-10 py-4 font-bold group"
+          <Link 
+          to={'/jobs'}
+            className="scroll-smooth relative inline-block text-xl px-10 py-4 font-bold group"
             >
             <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-base-300 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
             <span className="absolute inset-0 w-full h-full bg-secondary border-2 border-base-200 group-hover:bg-secondary"></span>

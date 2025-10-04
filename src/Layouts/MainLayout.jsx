@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className="scroll-smooth">
            <header className="sticky top-0 z-50 shadow-md">
              <Navbar></Navbar>
            </header>

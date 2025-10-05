@@ -14,7 +14,7 @@ const Profile = () => {
               ✕
             </button>
             <div className="bg-base-100 flex flex-col justify-center max-w-md py-16 shadow-2xl rounded-xl sm:px-12 mx-auto space-y-5">
-	<img src={user.photoURL} alt="" className="w-36 h-36 mx-auto rounded-full border-2 border-primary " />
+	<img src={user.photoURL || '/profile-user.png'} alt="" className="w-36 h-36 mx-auto rounded-full border-2 border-primary " />
 	<div className="space-y-4 text-center divide-y dark:divide-gray-300">
 		<div className="my-3 text-center space-y-2">
 			<h2 className="text-xl font-semibold sm:text-2xl">{user.displayName}</h2>

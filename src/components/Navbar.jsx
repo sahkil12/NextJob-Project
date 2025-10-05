@@ -81,14 +81,13 @@ const Navbar = () => {
     </>
   );
   const { user, signOutUser, setIsOpen, isOpen } = useContext(AuthContext);
-  console.log(user);
+  // console.log(user);
   const handleSignOut = () => {
     signOutUser()
       .then(() => {
-        console.log(" Sign-out successful.");
       })
       .catch((error) => {
-        console.log(error);
+        // console.log(error);
       });
   };
   return (

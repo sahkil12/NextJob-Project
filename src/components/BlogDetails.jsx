@@ -6,7 +6,6 @@ const BlogDetails = () => {
     const {id} = useParams()
     const blogs = useLoaderData([])
     const blog = blogs.slice(0,14).find(blog => blog.id === id)
-    console.log(blog);
     const {author, bannerImage, company, content, date, title} = blog;
     return (
         <div className="mx-auto lg:w-[70%] border-2 my-10 p-3 md:p-5 rounded-lg border-neutral-300 bg-base-300 flex flex-col gap-4 space-y-6 pops">

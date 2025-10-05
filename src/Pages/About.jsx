@@ -9,7 +9,6 @@ const About = () => {
     .then(res => res.json())
     .then(data => setFaq(data))
   },[])
-  console.log(faq);
   return (
     <div className="full bg-accent/5 min-h-screen pops">
       <Helmet>

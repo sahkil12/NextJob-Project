@@ -16,7 +16,6 @@ const SignUp = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(name, email, password);
     // validation
     if (name.length < 5) {
       setNameError("Name should be 5 Character or more. ");
@@ -44,7 +43,6 @@ const SignUp = () => {
     signUpUser(email, password)
     .then(result => {
         const user = result.user
-    console.log("User created:", result.user);
     updateUserProfile({ displayName: name, photoURL: '' })
     .then(()=>{
         setUser({...user, displayName: name, photoURL: '' })
@@ -63,7 +61,7 @@ const SignUp = () => {
   const googleSignUp = () =>{
     googleLogin()
     .then(result => {
-      console.log("Google user:", result.user);
+      // console.log("Google user:", result.user);
       navigate("/");
     })
     .catch(err => setError(err.message));
@@ -72,7 +70,7 @@ const SignUp = () => {
 const githubSignUp = () =>{
     githubLogin()
      .then(result => {
-      console.log("GitHub user:", result.user);
+      // console.log("GitHub user:", result.user);
       navigate("/");
     })
     .catch(err => setError(err.message));

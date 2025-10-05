@@ -1,7 +1,15 @@
+import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  const [faq, setFaq] = useState([])
+  useEffect(()=>{
+    fetch('/Faq.json')
+    .then(res => res.json())
+    .then(data => setFaq(data))
+  },[])
+  console.log(faq);
   return (
     <div className="full bg-accent/5 min-h-screen pops">
       <Helmet>
@@ -47,6 +55,32 @@ const About = () => {
     <div className="p-6 py-14 bg-white shadow font-semibold text-lg rounded-xl">🎯 Career Guidance</div>
   </div>
 </div>
+
+{/* FAQ Section */}
+<div className="my-16 md:w-[80%] mx-auto">
+  <h2 className="text-4xl md:text-5xl font-bold text-center py-16">
+    Frequently Asked <span className="text-secondary">Questions</span>
+  </h2>
+  <div className="space-y-1">
+   {
+    faq.map(f => (
+       <div
+        key={f.id}
+        className="collapse collapse-plus border py-4 px-5 border-gray-300 bg-white rounded-lg shadow"
+      >
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title text-lg font-semibold">
+          {f.question}
+        </div>
+        <div className="collapse-content  text-gray-600">
+          <p>{f.answer}</p>
+        </div>
+      </div>
+    ))
+   }
+  </div>
+</div>
+
 
       {/* CTA Section */}
       <div className="bg-accent/80 text-white py-12 text-center">

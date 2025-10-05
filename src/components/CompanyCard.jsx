@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const CompanyCard = ({company}) => {
@@ -17,12 +18,13 @@ const CompanyCard = ({company}) => {
               <p className="text-lg text-gray-500 font-medium">{company.location}</p>
               <p className="text-lg text-gray-500 font-medium">{company.industry}</p>
               <div className="my-2">
-                <a
+                <Link 
+                to={`/company/details/${company.id}`}
                   rel="noopener noreferrer"
                   className="btn btn-md py-5 btn-secondary "
                 >
                   View More Details
-                </a>
+                </Link>
               </div>
             </div>
           </div>

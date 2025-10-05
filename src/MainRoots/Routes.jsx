@@ -13,6 +13,7 @@ import Login from "../Auth/Login";
 import SignUp from "../Auth/SignUp";
 import PrivateRoute from './../Provider/PrivateRoute';
 import JobDetails from "../components/JobDetails";
+import CompanyDetails from "../components/CompanyDetails";
 
 export const router = createBrowserRouter([
   {
@@ -55,6 +56,11 @@ export const router = createBrowserRouter([
       {
         path:'companies',
         element:<Companies></Companies>,
+        loader:()=>fetch('/companies.json')
+      },
+      {
+        path:'company/details/:id',
+        element: <CompanyDetails></CompanyDetails> ,
         loader:()=>fetch('/companies.json')
       }
     ]

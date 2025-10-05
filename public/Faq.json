@@ -43,35 +43,5 @@
     "id": "faq-009",
     "question": "How can employers post jobs?",
     "answer": "Employers can register as a company account, purchase a job posting plan, and then publish their job listings."
-  },
-  {
-    "id": "faq-010",
-    "question": "Is my personal information safe?",
-    "answer": "Yes, we use secure encryption to protect your data and never share your information without consent."
-  },
-  {
-    "id": "faq-011",
-    "question": "Do you provide internship opportunities?",
-    "answer": "Yes, many employers post internships and entry-level opportunities on our platform."
-  },
-  {
-    "id": "faq-012",
-    "question": "Can I delete my account?",
-    "answer": "Yes, you can delete your account anytime from your account settings. All your data will be removed."
-  },
-  {
-    "id": "faq-013",
-    "question": "How do I contact support?",
-    "answer": "You can reach our support team via the 'Contact Us' page or email support@yourwebsite.com."
-  },
-  {
-    "id": "faq-014",
-    "question": "Can I apply for multiple jobs at once?",
-    "answer": "Yes, you can apply to as many jobs as you like. Each application will be tracked separately."
-  },
-  {
-    "id": "faq-015",
-    "question": "Do you verify employers?",
-    "answer": "Yes, we manually review and verify each employer before allowing them to post jobs to ensure authenticity."
   }
 ]

@@ -40,12 +40,12 @@ const JobDetails = () => {
             </span>
           </div>
 
-          <p className="text-gray-700">{job?.description} | {job?.description}</p>
+          <p className="text-gray-700 text-base/relaxed">{job?.description} | {job?.description}</p>
 
           {/* Requirements */}
           <div>
             <h2 className="font-semibold text-xl mt-4 mb-2">Requirements:</h2>
-            <ul className="list-disc list-inside text-gray-600 space-y-1">
+            <ul className="list-disc list-inside text-gray-600 space-y-2">
               {job?.requirements.map((req, idx) => (
                 <li key={idx}>{req}</li>
               ))}
@@ -65,7 +65,7 @@ const JobDetails = () => {
              href={job?.companyWebsite}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-3 bg-secondary text-base-200 text-lg font-bold rounded-lg hover:bg-secondary/80 transition"
+              className="inline-block px-8 py-3 bg-secondary text-base-100 text-lg font-bold rounded-lg hover:bg-secondary/80 transition"
             >
               Apply Now
             </a>

@@ -1,9 +1,14 @@
 import { Helmet } from "react-helmet";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigation } from "react-router-dom";
 import CompanyCard from "../components/CompanyCard";
+import Loader from "../Errorpages/Loader";
 
 const Companies = () => {
   const companies = useLoaderData([]);
+   const navigation = useNavigation()
+  if(navigation.state == 'loading'){
+    return <Loader></Loader>
+  }
   return (
     <div className="md:w-10/12 mx-auto pops min-h-screen to-base-300">
       <Helmet>

@@ -57,7 +57,6 @@ const AuthProvider = ({ children }) => {
         updateUserProfile,
         isOpen, 
         setIsOpen,
-       
     }
   return <AuthContext.Provider value={userData}>{children}</AuthContext.Provider>;
 };

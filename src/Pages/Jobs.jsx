@@ -1,9 +1,14 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigation } from "react-router-dom";
 import JobCard from "../components/JobCard";
 import { Helmet } from "react-helmet";
+import Loader from "../Errorpages/Loader";
 
 const Jobs = () => {
   const jobs = useLoaderData([]);
+  const navigation = useNavigation()
+  if(navigation.state == 'loading'){
+    return <Loader></Loader>
+  }
   return (
     <div className="bg-base-300 pops">
         <Helmet>

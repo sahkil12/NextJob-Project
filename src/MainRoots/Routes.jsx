@@ -14,6 +14,7 @@ import SignUp from "../Auth/SignUp";
 import PrivateRoute from './../Provider/PrivateRoute';
 import JobDetails from "../components/JobDetails";
 import CompanyDetails from "../components/CompanyDetails";
+import Loader from "../Errorpages/Loader";
 
 export const router = createBrowserRouter([
   {
@@ -33,11 +34,13 @@ export const router = createBrowserRouter([
         path:'blogs',
         element:<Blogs></Blogs>,
         loader: ()=> fetch('/blogs.json'),
+        hydrateFallbackElement:<Loader></Loader>
       },
       {
         path:'blog/:id',
         element:<PrivateRoute><BlogDetails></BlogDetails></PrivateRoute> ,
         loader: ()=> fetch('/blogs.json'),
+        hydrateFallbackElement:<Loader></Loader>
       },
       {
         path:'contact',
@@ -46,22 +49,26 @@ export const router = createBrowserRouter([
       {
         path:'jobs',
         element:<Jobs></Jobs>,
-        loader:()=>fetch('/jobs.json')
+        loader:()=>fetch('/jobs.json'),
+        hydrateFallbackElement:<Loader></Loader>
       },
       {
         path:'job/details/:id',
         element:<PrivateRoute><JobDetails></JobDetails></PrivateRoute>,
-        loader:()=>fetch('/jobs.json')
+        loader:()=>fetch('/jobs.json'),
+        hydrateFallbackElement:<Loader></Loader>
       },
       {
         path:'companies',
         element:<Companies></Companies>,
-        loader:()=>fetch('/companies.json')
+        loader:()=>fetch('/companies.json'),
+        hydrateFallbackElement:<Loader></Loader>
       },
       {
         path:'company/details/:id',
-        element: <CompanyDetails></CompanyDetails> ,
-        loader:()=>fetch('/companies.json')
+        element: <PrivateRoute><CompanyDetails></CompanyDetails></PrivateRoute> ,
+        loader:()=>fetch('/companies.json'),
+        hydrateFallbackElement:<Loader></Loader>
       }
     ]
   },

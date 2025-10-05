@@ -15,7 +15,7 @@ const FeaturedJobs = () => {
         return <Loader></Loader>;
     }
     return (
-        <div className="md:w-[80%] mx-auto my-10 py-7 pops text-center">
+        <div className="md:w-[80%] mx-auto my-10  py-7 pops text-center">
            <div className="space-y-7">
              <h2 className="text-4xl md:text-5xl underline font-bold text-accent">Featured Jobs</h2>
             <p className="text-lg text-base-200 font-medium">Explore the latest opportunities from top companies. Find your next career move today.</p>

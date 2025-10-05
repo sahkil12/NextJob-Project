@@ -2,13 +2,19 @@ import { useLoaderData, useNavigation } from "react-router-dom";
 import JobCard from "../components/JobCard";
 import { Helmet } from "react-helmet";
 import Loader from "../Errorpages/Loader";
+import { useState } from "react";
 
 const Jobs = () => {
   const jobs = useLoaderData([]);
   const navigation = useNavigation()
+  const [searchTerm, setSearchTerm] = useState("");
   if(navigation.state == 'loading'){
     return <Loader></Loader>
   }
+  // search/filter logic
+  const filteredJobs = jobs.filter((job) =>
+    job.jobType.toLowerCase().includes(searchTerm.toLowerCase())
+  );
   return (
     <div className="bg-base-300 pops">
         <Helmet>
@@ -40,6 +46,8 @@ const Jobs = () => {
         placeholder="Search your job Type | Full-Time | Part-Time | Remote"
         className="w-full px-10 py-4 md:py-6  pl-12 pr-4  rounded-lg border border-gray-300 bg-base-100 focus:outline-none focus:ring-2 focus:ring-accent/60 focus:border-accent text-gray-800 placeholder-gray-400 transition-all duration-200"
         autoComplete="on"
+         value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
       />
       <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
         <svg
@@ -53,16 +61,19 @@ const Jobs = () => {
     </div>
   </fieldset>
 </section>
-
-            {/* jobs */}
-            <section className=" py-10 mt-5 md:mt-10">
-                <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
-                    {
-                        jobs.map(job => <JobCard job={job} key={job.id}></JobCard>)
-                    }
-                </div>
-            </section>
-
+              <section className="py-10 mt-5 md:mt-10">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
+            {filteredJobs.length > 0 ? (
+              filteredJobs.map((job) => (
+                <JobCard job={job} key={job.id}></JobCard>
+              ))
+            ) : (
+              <p className="text-center text-base-200 text-2xl col-span-2">
+                No jobs found for "{searchTerm}"
+              </p>
+            )}
+          </div>
+        </section>
       </div>
     </div>
   );

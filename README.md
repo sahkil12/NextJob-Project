@@ -10,7 +10,7 @@ The platform helps job seekers find opportunities and allows companies to post j
 
 🏠 Homepage with a simple Hero section, some Featured Jobs, How It Works for user better experience, Reviews for user how get there future job fromNexJob, Our success member number| etc.
 
-📝 Jobs Page to explore job listings choice user there comfort job and apply easy to hire.
+📝 Jobs Page to explore job listings choice user there comfort job and apply easy to hire. And Added Search filter to find easy to user Job type.
 
 🏢 Companies Page to explore top hiring companies and see there details or information and visit there site to more explore about all company.
 

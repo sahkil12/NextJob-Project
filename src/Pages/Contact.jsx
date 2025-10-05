@@ -60,7 +60,7 @@ const Contact = () => {
       </div>
       <div className="flex-1 hidden xl:flex">
         {/* img */}
-        <img src="/public/mobileIcon.png" className="w-full h-full rounded-lg" alt="" />
+        <img src="/mobileIcon.png" className="w-full h-full rounded-lg" alt="" />
       </div>
      </div>
      </section>

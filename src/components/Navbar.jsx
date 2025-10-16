@@ -137,28 +137,50 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         {user ? (
-          <div className="flex items-center gap-3 ">
-            <p className="hidden sm:flex font-bold text-primary">{user.displayName}</p>
-            <Link onClick={()=>setIsOpen(true)}>
-            <img className="rounded-full w-10 h-10 md:w-13 md:h-13" 
-            src={user.photoURL ? `${user.photoURL}` : '/profile-user.png'} alt="" />
-            </Link>
-            <Link
-            onClick={handleSignOut}
-            to={"/auth/login"}
-            className="btn btn-primary px-5 py-3 md:px-6 md:py-4 text-base"
-          >
-            Sign Out
-          </Link>
-          </div>
+          // <div className="flex items-center gap-3 ">
+          //   <p className="hidden sm:flex font-bold text-primary">{user.displayName}</p>
+          //   <Link onClick={()=>setIsOpen(true)}>
+          //   <img className="rounded-full w-10 h-10 md:w-13 md:h-13" 
+          //   src={user.photoURL ? `${user.photoURL}` : '/profile-user.png'} alt="" />
+          //   </Link>
+          //   <Link
+          //   onClick={handleSignOut}
+          //   to={"/auth/login"}
+          //   className="btn btn-primary px-5 py-3 md:px-6 md:py-4 text-base"
+          // >
+          //   Sign Out
+          // </Link>
+          // </div>
+           <div className="dropdown  dropdown-end">
+                <div
+                  tabIndex={0}
+                  role="button"
+                  className="btn btn-ghost btn-circle avatar"
+                >
+                  <div className="w-14 rounded-full ring ring-primary/40 ring-offset-2">
+                    <img
+                    className="rounded-full w-10 h-10"
+                      alt="User"
+                      src={user?.photoURL || '/profile-user.png' }
+                    />
+                  </div>
+                </div>
+                <ul
+                  tabIndex={-1}
+                  className="menu menu-md dropdown-content bg-white border border-slate-200 rounded-box z-10 mt-3 flex flex-col gap-3 justify-center items-center w-72 md:w-96 shadow-lg py-6 sm:py-10 p-5"
+                >
+                  <li className="w-full items-center">
+                    <span className="pop text-lg font-semibold text-secondary">{user.displayName}</span>
+                    <span className="text-sm sm:text-base font-semibold">{user?.email}</span>
+                  </li>
+                  <div className="border border-primary/60 w-full"></div>
+                  <li className="w-full items-center">
+                    <button onClick={handleSignOut} className="btn py-6 w-full text-base bg-primary/90 text-white border-none"> Sign Out</button>
+                  </li>
+                </ul>
+              </div>
         ) : (
           <div className="flex gap-2">
-            <Link
-              to={"/auth/signup"}
-              className="btn btn-secondary px-6 text-base-200"
-            >
-              SignUp
-            </Link>
             <Link to={"/auth/login"} className="btn btn-primary px-7 text-base">
               Login
             </Link>

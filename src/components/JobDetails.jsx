@@ -11,6 +11,9 @@ const JobDetails = () => {
         <Helmet>
         <title>Job {id} Details| NexJob</title>
       </Helmet>
+      <div className="flex lg:hidden my-5 mx-4 text-xl">
+         <Link to={'/jobs'} className="text-primary font-semibold ">Back</Link>
+     </div>
       <div className="max-w-7xl mx-auto bg-base-100 rounded-xl p-6 border border-neutral-300  shadow-xl overflow-hidden">
         {/* Header */}
         <div className=" h-70 w-full">
@@ -19,7 +22,6 @@ const JobDetails = () => {
             alt={job?.title}
             className="w-full h-full  rounded-md object-cover"
           />
-          
         </div>
 
         {/* Job Info */}

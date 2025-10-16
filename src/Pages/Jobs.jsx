@@ -23,7 +23,7 @@ const Jobs = () => {
       <div className=" w-11/12 mx-auto pops min-h-screen">
         <section className="py-10 space-y-8">
           {/* heading section */}
-          <h2 className="text-4xl md:text-6xl font-semibold text-center">
+          <h2 className="text-4xl/relaxed md:text-6xl font-semibold text-center">
             {" "}
             Find Your{" "}
             <span className="text-accent font-bold border-b-4">

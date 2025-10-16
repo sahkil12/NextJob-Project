@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { useLoaderData, useNavigation, useParams } from "react-router-dom";
+import { Link, useLoaderData, useNavigation, useParams } from "react-router-dom";
 import Loader from './../Errorpages/Loader';
 
 const CompanyDetails = () => {
@@ -24,7 +24,9 @@ const CompanyDetails = () => {
       <Helmet>
         <title>{company.name} | NexJob</title>
       </Helmet>
-
+     <div className="my-5 text-lg flex lg:hidden">
+         <Link to={'/companies'} className="text-primary font-semibold ">Back</Link>
+     </div>
       {/* Company Header */}
       <div className="text-center mb-10 space-y-2">
         <img
